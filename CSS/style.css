@@ -1,0 +1,31 @@
+
+@import url('./styles/header.css');
+@import url('./styles/sectionSobre.css');
+@import url('./styles/sectionServiços.css');
+@import url('./styles/sectionContatos.css');
+
+ :root{
+--azul: #11235A;
+--fonte:"Poppins", sans-serif;
+ }
+
+ body{
+    box-sizing: border-box;
+    font-family: var(--fonte);
+    height: 100vh;
+  
+ }
+ 
+header {
+   background-image: url('../IMG/banner\ teste.jpg');
+   width: 100%;
+   height: 120vh;
+   background-repeat: no-repeat;
+}
+
+header {
+   padding-top: 30rem; /* Adiciona espaço superior para o conteúdo não ficar oculto pela barra de navegação */
+   padding-left: 38rem;
+   color: white;
+   
+}

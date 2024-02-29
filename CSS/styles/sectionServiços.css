@@ -1,0 +1,29 @@
+.section__serviços{
+    padding: 7rem;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.img {
+    width: 100%;
+    height: 180px; /* Defina a altura desejada para as imagens */
+    object-fit: cover; /* Isso garante que as imagens sejam dimensionadas corretamente */
+}
+
+.botao__card{
+    background-color: var(--azul);
+    border: none;
+}
+
+.botao__modal{
+    background-color: var(--azul);
+    border: none;
+}
+
+.botao__card {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}

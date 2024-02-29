@@ -1,0 +1,25 @@
+.container__contato{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.section__contatos{
+    margin-bottom: 5rem;
+}
+
+.icon__whpp {
+    font-size: 2.5rem !important; /* Adicionando !important para garantir que esta regra seja priorizada */
+}
+
+.section__contatos {
+    padding: 20px 0; /* Reduzir o preenchimento vertical */
+}
+
+.container__contato p {
+    margin-bottom: 10px; /* Reduzir a margem inferior dos parágrafos */
+}

@@ -1,0 +1,17 @@
+.section__sobre {
+    padding-top: 70px; /* Adicione o valor da altura do seu navbar fixo aqui */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+.container__p{
+    width: 75%;
+}

@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #11235A;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar-nav{
+    display: flex;
+    gap: 1rem;
+}
+
+.botao__nav {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.botao__nav:hover {
+    color: white; /* Mantém a cor original do texto ao passar o mouse */
+}
+
+.botao__nav::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: white; /* Mantém a cor original do sublinhado */
+    transition: width 0.3s ease;
+}
+
+.botao__nav:hover::before {
+    width: 100%;
+}
+
+.botao-menu {
+    border-color: red;
+}

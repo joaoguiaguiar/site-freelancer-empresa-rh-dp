@@ -12,13 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-
-
-
-
-
-    
+<body> 
   <header id="Home">
     <nav class="navbar navbar-expand-lg bg-body-dark fixed-top">
         <div class="container-fluid justify-content-between">
@@ -27,16 +21,16 @@
             <button class="navbar-toggler menu-branco" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class=" botao__nav active" aria-current="page" href="#Home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="botao__nav active " href="#Sobre">Sobre</a>
+                        <a class="botao__nav active" href="#Sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="botao__nav active " href="#Serviços">Serviços</a>
+                        <a class="botao__nav active" href="#Serviços">Serviços</a>
                     </li>
                     <li class="nav-item">
                         <a class="botao__nav active" href="#Contatos">Contatos</a>
@@ -47,12 +41,13 @@
     </nav>
 
     <div class="container__header">
-        <h1>RH&DP Terceirização</h1>
-        <p style="font-size: 1.5rem;">Maria Isabel</p>
+        <h1 style="margin-top: 5rem;">RH&DP Terceirização</h1>
     </div>
 </header>
 
-<main>
+
+
+<main>   
 
   <section class="section__sobre" id="Sobre"> 
         <div class="container">
@@ -63,22 +58,21 @@
             </div>
         </div>
   </section>
-  <section class="section__serviços" id="Serviços">
+  <section class="section__serviços" id="Serviços" style="margin-top: 1.5rem;">
         <h2 class="text-center">Nossos Serviços</h2>
     
         <div class="container p-4">
           
-            <div class="row">
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
+            <div class="container__card row " >
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
                     <div class="card cards__mover">
                         <img src="./IMG/Trabalho Flexível.png" alt="Imagem Trabalho flexível" class="img">
-                        <div class="card-body">
-                            <div class="card-body text-center" >
-                                <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Trabalho Flexível
-                                </button>
-                            </div>
-                            
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Trabalho Flexível</h5>
+                            <p></p>
+                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Ver detalhes
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -86,13 +80,11 @@
                 <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
                     <div class="card cards__mover">
                         <img src="./IMG/Terceirização de RH.jpg" alt="Imagem Terceirização" width="100%" height="100%" class="img">
-                        <div class="card-body">
-                            <div class="card-body text-center" >
-                                <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                                    Terceirização de RH e DP
-                                </button>
-                            </div>
-                            
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Terceirização de RH e DP</h5>
+                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                Ver detalhes
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -100,113 +92,105 @@
                 <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
                     <div class="card cards__mover">
                         <img src="./IMG/Folha de Pagamento.png" alt="Imagem Folha de Pagamento" class="img">
-                        <div class="card-body">
-                            <div class="card-body text-center" >
-                                <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                                    Folha de Pagamento
-                                </button>
-                            </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Folha de Pagamento</h5>
+                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                Ver detalhes
+                            </button>
                         </div>
                     </div>
                 </div> 
-                
+    
                 <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
                     <div class="card cards__mover">
-                        <img src="./IMG/Admissões e Demissões.jpg" alt="Imagem Admissões e Demissões" srcset="" class="img">
-                        <div class="card-body">
-                            <div class="card-body text-center" >
-                                <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                                    Admissões e Demissões
-                                </button>
-                            </div>   
+                        <img src="./IMG/Admissoes e Demissões.jpg" alt="Imagem Admissões e Demissões" srcset="" class="img">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Admissões e Demissões</h5>
+                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                Ver detalhes
+                            </button>
                         </div>
                     </div>
                 </div>
-                
+    
                 <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
                     <div class="card cards__mover">
-                        <img src="./IMG/Controle de Férias.png" alt="Imagem Controle de Férias" class="img">
-                        <div class="card-body">
-                            <div class="card-body text-center" >
-                                <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                                    Controle de Férias
-                                </button>
-                            </div>  
+                        <img src="./IMG/controle ferias.png" alt="Imagem Controle de Férias" class="img">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Controle de Férias</h5>
+                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                Ver detalhes
+                            </button>
                         </div>
                     </div>
                 </div>
-                
+    
                 <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
                     <div class="card cards__mover">
                         <img src="./IMG/E-Social e SST.png" alt="Imagem E-Social e SST" class="img">
-                        <div class="card-body">
-                            <div class="card-body text-center" >
-                                <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                                    E-Social , SST  e CAT
-                                </button>
-                            </div>  
+                        <div class="card-body text-center">
+                            <h5 class="card-title">E-Social , SST  e CAT</h5>
+                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                Ver detalhes
+                            </button>
                         </div>
                     </div>
                 </div>
-                
+    
                 <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
                     <div class="card cards__mover">
-                        <img src="./IMG/PPP e Rescisões.png" alt="Imagem PPP e Rescisões" class="img">
-                        <div class="card-body">
-                            <div class="card-body text-center" >
-                                <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
-                                    PPP e Rescisões
-                                </button>
-                            </div> 
+                        <img src="./IMG/pppRescisoes.png" alt="Imagem PPP e Rescisões" class="img">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">PPP e Rescisões</h5>
+                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                                Ver detalhes
+                            </button>
                         </div>
                     </div>
-                </div>
-                
+                </div>    
+    
                 <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
                     <div class="card cards__mover">
                         <img src="./IMG/Acompanhamento Legal.jpg" alt="Image Acompanhamento Legal " class="img">
-                        <div class="card-body">
-                            <div class="card-body text-center" >
-                                <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal8">
-                                    Acompanhamento Legal
-                                </button>
-                            </div> 
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Acompanhamento Legal</h5>
+                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                                Ver detalhes
+                            </button>
                         </div>
                     </div>
                 </div>
-                
                 <div class="row justify-content-center">
-                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-                        <div class="card cards__mover">
-                            <img src="./IMG/Seleção e Acompanhamento.jpg" alt="Imagem Seleção e Acompanhamento " class="img">
-                            <div class="card-body">
-                                <div class="card-body text-center" >
-                                    <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal9">
-                                        Seleção e Acompanhamento
-                                    </button>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-                        <div class="card cards__mover">
-                        <img src="./IMG/Consignados e Homologações.jpg" alt="Imagem Consignados e Homologações " class="img">
-                            <div class="card-body">
-                                <div class="card-body text-center" >
-                                    <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal10">
-                                        Consignados e Homologações
-                                    </button>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
+                      <div class="card cards__mover">
+                          <img src="./IMG/Seleção e Acompanhamento.jpg" alt="Imagem Seleção e Acompanhamento " class="img">
+                          <div class="card-body text-center">
+                              <h5 class="card-title">Seleção e Acompanhamento</h5>
+                              <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+                                  Ver detalhes
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
+                      <div class="card cards__mover">
+                          <img src="./IMG/Consignados e Homologações.jpg" alt="Imagem Consignados e Homologações " class="img">
+                          <div class="card-body text-center">
+                              <h5 class="card-title">Consignados e Homologações</h5>
+                              <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+                                  Ver detalhes
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+                
+                
             </div>
         </div>
   </section>
-
-
   <section class="beneficios-section">
     <div class="container">
         <h2 class="beneficios-title mb-5">Nossos Benefícios</h2>
@@ -227,24 +211,51 @@
         </div>
     </div>
 </section>
-  
-  
-  <section class="section__contatos mt-5" id="Contatos">
+<section class="section__contatos" id="Contatos">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 col-lg-6">
+              <div class="container__contato">
+                  <h2>Entre em Contato</h2>
+                  <p><i class="bi bi-envelope"></i> Email: <a href="mailto:rh.dpterceirizacoes@gmail.com">rh.dpterceirizacoes@gmail.com</a></p>
+                  <p><i class="bi bi-phone"></i> Telefone: <a href="tel:(61)994528092">(61) 994528092</a></p>
+                  <p>Para conversar pelo WhatsApp, clique <a href="https://wa.me/5561994528092" target="_blank"><i class="bi-whatsapp fs-5 text-success icon__whpp"></i></a></p>
+              </div>
+          </div>
 
-    <h2 class="text-center">Entre em Contato</h2>
-
-    <div class="container__contato">
-        <p><i class="bi bi-envelope"></i> Email: <a href="mailto:rh.dpterceirizacoes@gmail.com">rh.dpterceirizacoes@gmail.com</a></p>
-        <p><i class="bi bi-phone"></i> Telefone: <a href="tel:(61)994528092">(61) 994528092</a></p>
-        <p>Para conversar pelo WhatsApp, clique <a href="https://wa.me/5561994528092" target="_blank"><i class="bi-whatsapp fs-5 text-success icon__whpp"></i></a></p>
-    </div>
-
+          <div class="col-12 col-lg-6">
+              <div class="container__faleConosco pt-5">
+                  <form action="https://api.staticforms.xyz/submit" method="post" id="formulario__faleConosco">
+                      <h2>Fale conosco</h2>
+                      <fieldset class="container__nome">
+                          <label for="nome">Nome Completo :</label>
+                          <input type="text" id="name" autocomplete="off" required>
+                      </fieldset>
+                      <fieldset class="container__telefone">
+                          <label for="telefone">Telefone :</label>
+                          <input type="text" name="phone" id="telefone" maxlength="15" autocomplete="off" required>
+                      </fieldset>
+                      <fieldset class="container__email">
+                          <label for="e-mail">E-mail :</label>
+                          <input type="email" name="email" id="e-mail" autocomplete="off" required>
+                      </fieldset>
+                      <fieldset class="container__mensagem">
+                          <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                              <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                          </div>
+                      </fieldset>
+                      <div class="container__botao">
+                          <button type="submit" class="botao" onclick="alert('Formulário enviado com sucesso !')">Enviar</button>
+                      </div>
+                      <input type="hidden" name="redirectTo" value="https://terceirizacaodp.com/destinoFormulario.html">
+                      <input type="hidden" name="accessKey" value="b4b792ec-632f-44ed-84e2-cf0ecaa0b61b">
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
 </section>
-
-
-
-
-
 
 
 

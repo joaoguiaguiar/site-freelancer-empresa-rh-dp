@@ -19,7 +19,7 @@
 }
 
 .botao__nav:hover {
-    color: white; /* Mantém a cor original do texto ao passar o mouse */
+    color: white; 
 }
 
 .botao__nav::before {
@@ -29,7 +29,7 @@
     left: 0;
     width: 0;
     height: 1px;
-    background-color: white; /* Mantém a cor original do sublinhado */
+    background-color: white; 
     transition: width 0.3s ease;
 }
 

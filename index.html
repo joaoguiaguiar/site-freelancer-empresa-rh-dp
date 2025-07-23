@@ -1,473 +1,689 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RH&DP</title>
-    <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RH&DP</title>
+  <link rel="stylesheet" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 </head>
-<body> 
+<body>
   <header id="Home">
-    <nav class="navbar navbar-expand-lg bg-body-dark fixed-top">
-        <div class="container-fluid justify-content-between">
-            <a class="navbar-brand" href="#Home" style="color: white;"><i class="bi bi-person-fill"></i> RH&DP</a>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#Home">
+          <i class="bi bi-person-fill"></i> RH&DP
+        </a>
 
-            <button class="navbar-toggler menu-branco" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class=" botao__nav active" aria-current="page" href="#Home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="botao__nav active" href="#Sobre">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="botao__nav active" href="#Serviços">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="botao__nav active" href="#Contatos">Contatos</a>
-                    </li>
-                </ul>
-            </div>
+        <button class="navbar-toggler border-0 p-0 shadow-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" viewBox="0 0 16 16">
+              <path stroke="#fff" stroke-linecap="round" stroke-width="2" d="M1 1h14M1 8h14M1 15h14" />
+            </svg>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="botao__nav" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="botao__nav" href="#Sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="botao__nav" href="#Serviços">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="botao__nav" href="#Contatos">Contatos</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <div class="container__header">
-        <h1 style="margin-top: 5rem;">RH&DP Terceirização</h1>
-    </div>
-</header>
 
-
-
-<main>   
-
-  <section class="section__sobre" id="Sobre"> 
-        <div class="container">
-            <h1 class="text-center">Sobre nós</h1>
-            <div class="container__p">
-                <p>Somos uma empresa dedicada à gestão de recursos humanos e departamento pessoal, oferecendo soluções completas para empresas de todos os tamanhos. Nosso objetivo é ajudar nossos clientes a focar no crescimento de seus negócios, cuidando de todas as necessidades relacionadas a RH e DP.</p>
-                <p>Desde a nossa fundação, estamos comprometidos em oferecer serviços de qualidade, garantindo conformidade com a legislação trabalhista e proporcionando tranquilidade aos nossos clientes.</p>
-            </div>
+  </header>
+  <main class="animar-scroll">
+    <section class="banner-section">
+      <div class="container-fluid">
+        <div class="hero-content">
+          <h1 class="hero-title">RH&DP Terceirização</h1>
+          <p class="hero-subtitle">Soluções completas em recursos humanos e departamento pessoal para empresas que
+            buscam excelência e crescimento sustentável.</p>
+          <a href="#Contatos" class="cta-button">
+            Fale Conosco <i class="bi bi-arrow-right"></i>
+          </a>
         </div>
-  </section>
-  <section class="section__serviços " id="Serviços" style="margin-top: 3rem;">
-        <h2 class="text-center">Nossos Serviços</h2>
-    
-        <div class="container p-4">
-          
-            <div class="container__card row " >
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-                    <div class="card cards__mover">
-                        <img src="./IMG/Trabalho Flexível.png" alt="Imagem Trabalho flexível" class="img">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Trabalho Flexível</h5>
-                            <p></p>
-                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Ver detalhes
-                            </button>
-                        </div>
-                    </div>
+      </div>
+    </section>
+    <section class="content-section" id="Sobre">
+      <div class="container">
+        <h2 class="section-title">Sobre Nós</h2>
+        <p class="section-subtitle">Transformando a gestão de recursos humanos com expertise e inovação</p>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="about-card fade-in-up">
+              <div class="row align-items-center">
+                <div class="col-lg-8">
+                  <p class="mb-4">Somos uma empresa dedicada à gestão de recursos humanos e departamento pessoal,
+                    oferecendo soluções completas para empresas de todos os tamanhos. Nosso objetivo é ajudar nossos
+                    clientes a focar no crescimento de seus negócios, cuidando de todas as necessidades relacionadas a
+                    RH e DP.</p>
+                  <p class="mb-0">Desde a nossa fundação, estamos comprometidos em oferecer serviços de qualidade,
+                    garantindo conformidade com a legislação trabalhista e proporcionando tranquilidade aos nossos
+                    clientes.</p>
                 </div>
-    
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-                    <div class="card cards__mover">
-                        <img src="./IMG/Terceirização de RH.jpg" alt="Imagem Terceirização" width="100%" height="100%" class="img">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Terceirização de RH e DP</h5>
-                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                                Ver detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-                    <div class="card cards__mover">
-                        <img src="./IMG/Folha de Pagamento.png" alt="Imagem Folha de Pagamento" class="img">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Folha de Pagamento</h5>
-                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                                Ver detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div> 
-    
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-                    <div class="card cards__mover">
-                        <img src="./IMG/Admissoes e Demissões.jpg" alt="Imagem Admissões e Demissões" srcset="" class="img">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Admissões e Demissões</h5>
-                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                                Ver detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-                    <div class="card cards__mover">
-                        <img src="./IMG/controle ferias.png" alt="Imagem Controle de Férias" class="img">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Controle de Férias</h5>
-                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                                Ver detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-                    <div class="card cards__mover">
-                        <img src="./IMG/E-Social e SST.png" alt="Imagem E-Social e SST" class="img">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">E-Social , SST  e CAT</h5>
-                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                                Ver detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-                    <div class="card cards__mover">
-                        <img src="./IMG/pppRescisoes.png" alt="Imagem PPP e Rescisões" class="img">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">PPP e Rescisões</h5>
-                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
-                                Ver detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div>    
-    
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-                    <div class="card cards__mover">
-                        <img src="./IMG/Acompanhamento Legal.jpg" alt="Image Acompanhamento Legal " class="img">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Acompanhamento Legal</h5>
-                            <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal8">
-                                Ver detalhes
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-                      <div class="card cards__mover">
-                          <img src="./IMG/Seleção e Acompanhamento.jpg" alt="Imagem Seleção e Acompanhamento " class="img">
-                          <div class="card-body text-center">
-                              <h5 class="card-title">Seleção e Acompanhamento</h5>
-                              <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal9">
-                                  Ver detalhes
-                              </button>
-                          </div>
-                      </div>
+                <div class="col-lg-4 text-center">
+                  <div class="service-icon">
+                    <i class="bi bi-award"></i>
                   </div>
-              
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-                      <div class="card cards__mover">
-                          <img src="./IMG/Consignados e Homologações.jpg" alt="Imagem Consignados e Homologações " class="img">
-                          <div class="card-body text-center">
-                              <h5 class="card-title">Consignados e Homologações</h5>
-                              <button type="button" class="botao__card btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal10">
-                                  Ver detalhes
-                              </button>
-                          </div>
-                      </div>
-                  </div>
+                  <h4>Excelência<br>Comprovada</h4>
+                </div>
               </div>
-              
-                
-                
             </div>
+          </div>
         </div>
-  </section>
-  <section class="beneficios-section">
+      </div>
+    </section>
+
+    <section class="content-section" id="Serviços">
+      <div class="container">
+        <h2 class="section-title">Nossos Serviços</h2>
+        <p class="section-subtitle">Soluções completas e personalizadas para sua empresa</p>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="card-content text-center">
+                <div class="service-icon">
+                  <i class="bi bi-clock"></i>
+                </div>
+                <h5 class="service-title">Trabalho Flexível</h5>
+                <p class="text-muted">Soluções adaptáveis para trabalho remoto e presencial</p>
+                <button type="button" class="btn-service" data-bs-toggle="modal"
+                  data-bs-target="#modalTrabalhoFlexivel">
+                  Ver Detalhes
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="card-content text-center">
+                <div class="service-icon">
+                  <i class="bi bi-building"></i>
+                </div>
+                <h5 class="service-title">Terceirização de RH e DP</h5>
+                <p class="text-muted">Gestão completa do seu departamento pessoal</p>
+                <button type="button" class="btn-service" data-bs-toggle="modal" data-bs-target="#modalTerceirizacao">
+                  Ver Detalhes
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="card-content text-center">
+                <div class="service-icon">
+                  <i class="bi bi-calculator"></i>
+                </div>
+                <h5 class="service-title">Folha de Pagamento</h5>
+                <p class="text-muted">Processamento preciso com sistema Dexion</p>
+                <button type="button" class="btn-service" data-bs-toggle="modal" data-bs-target="#modalFolhaPagamento">
+                  Ver Detalhes
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="card-content text-center">
+                <div class="service-icon">
+                  <i class="bi bi-person-plus"></i>
+                </div>
+                <h5 class="service-title">Admissões e Demissões</h5>
+                <p class="text-muted">Processos em conformidade legal</p>
+                <button type="button" class="btn-service" data-bs-toggle="modal" data-bs-target="#modalAdmissoes">
+                  Ver Detalhes
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="card-content text-center">
+                <div class="service-icon">
+                  <i class="bi bi-calendar-check"></i>
+                </div>
+                <h5 class="service-title">Controle de Férias</h5>
+                <p class="text-muted">Gestão eficaz do tempo de descanso</p>
+                <button type="button" class="btn-service" data-bs-toggle="modal" data-bs-target="#modalFerias">
+                  Ver Detalhes
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="card-content text-center">
+                <div class="service-icon">
+                  <i class="bi bi-shield-check"></i>
+                </div>
+                <h5 class="service-title">E-Social, SST e CAT</h5>
+                <p class="text-muted">Conformidade digital e segurança</p>
+                <button type="button" class="btn-service" data-bs-toggle="modal" data-bs-target="#modalESocial">
+                  Ver Detalhes
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="card-content text-center">
+                <div class="service-icon">
+                  <i class="bi bi-file-text"></i>
+                </div>
+                <h5 class="service-title">PPP e Rescisões</h5>
+                <p class="text-muted">Documentação para aposentadoria</p>
+                <button type="button" class="btn-service" data-bs-toggle="modal" data-bs-target="#modalPPP">
+                  Ver Detalhes
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="card-content text-center">
+                <div class="service-icon">
+                  <i class="bi bi-briefcase"></i>
+                </div>
+                <h5 class="service-title">Acompanhamento Legal</h5>
+                <p class="text-muted">Suporte em causas trabalhistas</p>
+                <button type="button" class="btn-service" data-bs-toggle="modal" data-bs-target="#modalLegal">
+                  Ver Detalhes
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="card-content text-center">
+                <div class="service-icon">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h5 class="service-title">Seleção e Acompanhamento</h5>
+                <p class="text-muted">Jovem Aprendiz e PCD</p>
+                <button type="button" class="btn-service" data-bs-toggle="modal" data-bs-target="#modalSelecao">
+                  Ver Detalhes
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="card-content text-center">
+                <div class="service-icon">
+                  <i class="bi bi-clipboard-check"></i>
+                </div>
+                <h5 class="service-title">Consignados e Homologações</h5>
+                <p class="text-muted">Gestão de processos burocráticos</p>
+                <button type="button" class="btn-service" data-bs-toggle="modal" data-bs-target="#modalConsignados">
+                  Ver Detalhes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section benefits-section">
+      <div class="container">
+        <h2 class="section-title">Nossos Benefícios</h2>
+        <p class="section-subtitle">Vantagens exclusivas para você e sua equipe</p>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <i class="bi bi-mortarboard"></i>
+              </div>
+              <h3 class="benefit-title">Palestras Trimestrais de Aperfeiçoamento</h3>
+              <p>Oferecemos palestras trimestrais para que seus colaboradores possam aprender e se desenvolver
+                continuamente. Abordamos tópicos desde habilidades técnicas até comunicação e liderança, valorizando o
+                crescimento da equipe.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <i class="bi bi-whatsapp"></i>
+              </div>
+              <h3 class="benefit-title">Atendimento Exclusivo via WhatsApp</h3>
+              <p>Suporte dedicado para esclarecer dúvidas financeiras relacionadas a proventos, descontos e outros
+                aspectos do trabalho. Oferecemos transparência e tranquilidade aos colaboradores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section contact-section" id="Contatos">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="contact-card">
+              <h2 class="mb-4">Entre em Contato</h2>
+
+              <div class="contact-info">
+                <div class="contact-icon">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div>
+                  <strong>Email</strong><br>
+                  <a href="mailto:rh.dpterceirizacoes@gmail.com"
+                    class="text-white text-decoration-none">rh.dpterceirizacoes@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-info">
+                <div class="contact-icon">
+                  <i class="bi bi-phone"></i>
+                </div>
+                <div>
+                  <strong>Telefone</strong><br>
+                  <a href="tel:(61)994528092" class="text-white text-decoration-none">(61) 99452-8092</a>
+                </div>
+              </div>
+
+              <div class="contact-info">
+                <div class="contact-icon">
+                  <i class="bi bi-whatsapp"></i>
+                </div>
+                <div>
+                  <strong>WhatsApp</strong><br>
+                  <a href="https://wa.me/5561994528092" target="_blank" class="text-white text-decoration-none">
+                    Clique para conversar
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-info">
+                <div class="contact-icon">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div>
+                  <strong>Endereço</strong><br>
+                  QSC 19 Chácara 26 Conjunto G N° 13<br>
+                  Taguatinga Sul-DF, CEP: 72.017-287
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="contact-card">
+              <h2 class="mb-4">Fale Conosco</h2>
+              <form action="https://api.staticforms.xyz/submit" method="post" id="formulario__faleConosco">
+                <div class="mb-3">
+                  <label for="nome" class="form-label">Nome Completo</label>
+                  <input type="text" class="form-control" id="nome" name="name" required
+                    placeholder="Seu nome completo">
+                </div>
+
+                <div class="mb-3">
+                  <label for="telefone" class="form-label">Telefone</label>
+                  <input type="tel" class="form-control" id="telefone" name="phone" maxlength="15" required
+                    placeholder="(00) 00000-0000">
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="email" name="email" required placeholder="seu@email.com">
+                </div>
+
+                <div class="mb-4">
+                  <label for="mensagem" class="form-label">Mensagem</label>
+                  <textarea class="form-control" id="mensagem" name="message" rows="4" required
+                    placeholder="Como podemos ajudar você?"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">
+                  <i class="bi bi-send me-2"></i>Enviar Mensagem
+                </button>
+
+                <input type="hidden" name="redirectTo" value="https://terceirizacaodp.com/destinoFormulario.html">
+                <input type="hidden" name="accessKey" value="b4b792ec-632f-44ed-84e2-cf0ecaa0b61b">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="text-center">
     <div class="container">
-        <h2 class="beneficios-title mb-5">Nossos Benefícios</h2>
-
-        <div class="row">
-            <div class="col-md-6">
-                <div class="beneficios-item">
-                  <h3><i class="bi bi-book"></i> Palestras Trimestrais de Aperfeiçoamento Profissional</h3>
-                    <p>Oferecemos palestras trimestrais para que vossos colaboradores possam aprender e se desenvolver continuamente. Essas palestras abordam uma variedade de tópicos, desde habilidades técnicas específicas até habilidades de comunicação e liderança. Demonstramos assim que valorizamos o crescimento e o desenvolvimento de nossa equipe, contribuindo para um ambiente de trabalho mais motivador e produtivo.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="beneficios-item">
-                  <h3><i class="fab fa-whatsapp"></i> Atendimento Exclusivo via WhatsApp para Dúvidas Financeiras</h3>
-                    <p>Nos preocupamos com o bem-estar financeiro de vossos colaboradores. Por isso, oferecemos um atendimento exclusivo via WhatsApp para esclarecer dúvidas relacionadas a proventos, descontos ou outros aspectos financeiros do trabalho. Isso demonstra nossa transparência e disposição para ajudar nossos funcionários a entenderem melhor sua situação financeira, proporcionando-lhes maior tranquilidade e segurança.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="section__contatos" id="Contatos">
-  <div class="container">
       <div class="row">
-          <div class="col-12 col-lg-6">
-              <div class="container__contato">
-                  <h2>Entre em Contato</h2>
-                  <p><i class="bi bi-envelope"></i> Email: <a href="mailto:rh.dpterceirizacoes@gmail.com">rh.dpterceirizacoes@gmail.com</a></p>
-                  <p><i class="bi bi-phone"></i> Telefone: <a href="tel:(61)994528092">(61) 994528092</a></p>
-                  <p>Para conversar pelo WhatsApp, clique <a href="https://wa.me/5561994528092" target="_blank"><i class="bi-whatsapp fs-5 text-success icon__whpp"></i></a></p>
-              </div>
+        <div class="col-lg-8 mx-auto mb-4">
+          <h4 class="mb-3">RH&DP Terceirização</h4>
+          <p class="mb-4">Trabalhando para você, onde quer que esteja. Soluções completas em recursos humanos com
+            excelência e confiabilidade.</p>
+
+          <div class="d-flex justify-content-center gap-3 mb-4">
+            <a href="mailto:rh.dpterceirizacoes@gmail.com" class="text-white fs-4">
+              <i class="bi bi-envelope"></i>
+            </a>
+            <a href="tel:(61)994528092" class="text-white fs-4">
+              <i class="bi bi-phone"></i>
+            </a>
+            <a href="https://wa.me/5561994528092" target="_blank" class="text-white fs-4">
+              <i class="bi bi-whatsapp"></i>
+            </a>
           </div>
+        </div>
+      </div>
 
-          <div class="col-12 col-lg-6">
-              <div class="container__faleConosco pt-5">
-                  <form action="https://api.staticforms.xyz/submit" method="post" id="formulario__faleConosco">
-                      <h2>Fale conosco</h2>
-                      <fieldset class="container__nome">
-                          <label for="nome">Nome Completo :</label>
-                          <input type="text" id="name" autocomplete="off" required>
-                      </fieldset>
-                      <fieldset class="container__telefone">
-                          <label for="telefone">Telefone :</label>
-                          <input type="text" name="phone" id="telefone" maxlength="15" autocomplete="off" required>
-                      </fieldset>
-                      <fieldset class="container__email">
-                          <label for="e-mail">E-mail :</label>
-                          <input type="email" name="email" id="e-mail" autocomplete="off" required>
-                      </fieldset>
-                      <fieldset class="container__mensagem">
-                          <div class="mb-3">
-                              <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-                              <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" required></textarea>
-                          </div>
-                      </fieldset>
-                      <div class="container__botao">
-                          <button type="submit" class="botao" onclick="alert('Formulário enviado com sucesso !')">Enviar</button>
-                      </div>
-                      <input type="hidden" name="redirectTo" value="https://terceirizacaodp.com/destinoFormulario.html">
-                      <input type="hidden" name="accessKey" value="b4b792ec-632f-44ed-84e2-cf0ecaa0b61b">
-                  </form>
-              </div>
+      <hr class="border-light opacity-25 my-4">
+
+      <div class="row">
+        <div class="col-12">
+          <p class="mb-0">&copy; 2024 <i class="bi bi-person-fill"></i> RH&DP - Todos os direitos reservados</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modals -->
+  <div>
+    <div class="modal fade" id="modalTrabalhoFlexivel" tabindex="-1" aria-labelledby="modalTrabalhoFlexivelLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalTrabalhoFlexivelLabel">
+              <i class="bi bi-clock me-2"></i>Trabalho Flexível
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-      </div>
-  </div>
-</section>
-</main>
-<footer class="bg-dark text-white text-center p-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p>Trabalhando para você, onde quer que esteja.</p>
-      </div>
-    </div>
-  </div>
-  <div class="mt-3">
-    <p>Endereço: QSC 19 Chácara 26 Conjunto G N° 13, Taguatinga Sul-DF, CEP: 72.017-287</p>
-    <p>&copy; 2024 RH&DP - Todos os direitos reservados</p>
-  </div>
-</footer>
-
-<div>
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Trabalho Flexível</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p>Oferecemos soluções tanto para trabalho remoto quanto presencial, adaptando-nos às necessidades da sua empresa.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary botao__modal " data-bs-dismiss="modal">Fechar</button>
+          <div class="modal-body">
+            <p class="lead">Oferecemos soluções tanto para trabalho remoto quanto presencial, adaptando-nos às
+              necessidades da sua empresa.</p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle text-success me-2"></i>Gestão remota de equipes</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Suporte presencial quando necessário</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Flexibilidade de horários</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Tecnologia adaptada</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Terceirização de RH e DP</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal fade" id="modalTerceirizacao" tabindex="-1" aria-labelledby="modalTerceirizacaoLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalTerceirizacaoLabel">
+              <i class="bi bi-building me-2"></i>Terceirização de RH e DP
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Deixe-nos cuidar do seu departamento pessoal e de recursos humanos para que você possa focar
+              no crescimento do seu negócio.</p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle text-success me-2"></i>Gestão completa de RH</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Departamento pessoal terceirizado</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Conformidade legal garantida</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Redução de custos operacionais</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          </div>
         </div>
-        <div class="modal-body">
-          <p>Deixe-nos cuidar do seu departamento pessoal e de recursos humanos para que você possa focar no crescimento do seu negócio. </p>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-primary botao__modal " data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
 
+    <div class="modal fade" id="modalFolhaPagamento" tabindex="-1" aria-labelledby="modalFolhaPagamentoLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalFolhaPagamentoLabel">
+              <i class="bi bi-calculator me-2"></i>Folha de Pagamento
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Utilizamos o sistema folha Dexion para garantir precisão e eficiência no processamento da
+              sua
+              folha de pagamento.</p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle text-success me-2"></i>Sistema Dexion atualizado</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Cálculos precisos</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Relatórios detalhados</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Conformidade tributária</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalAdmissoes" tabindex="-1" aria-labelledby="modalAdmissoesLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalAdmissoesLabel">
+              <i class="bi bi-person-plus me-2"></i>Admissões e Demissões
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Gerenciamos todo o processo de admissão e demissão, assegurando conformidade com a
+              legislação
+              trabalhista.</p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle text-success me-2"></i>Processos de admissão completos</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Demissões em conformidade legal</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Documentação adequada</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Acompanhamento pós-processo</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalFerias" tabindex="-1" aria-labelledby="modalFeriasLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalFeriasLabel">
+              <i class="bi bi-calendar-check me-2"></i>Controle de Férias
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Cuidamos do controle e emissão das férias dos seus colaboradores, para garantir uma gestão
+              eficaz do tempo de descanso.</p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle text-success me-2"></i>Controle de períodos aquisitivos</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Programação de férias</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Cálculos de férias e terço</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Relatórios de vencimentos</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalESocial" tabindex="-1" aria-labelledby="modalESocialLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalESocialLabel">
+              <i class="bi bi-shield-check me-2"></i>E-Social, SST e CAT
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Mantenha sua empresa em conformidade com as exigências do E-Social, bem como com as normas
+              de
+              Segurança e Saúde do Trabalho (SST) e Comunicação de Acidente de Trabalho (CAT).</p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle text-success me-2"></i>Envios E-Social atualizados</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Gestão de SST</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Emissão de CAT</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Conformidade digital</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalPPP" tabindex="-1" aria-labelledby="modalPPPLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalPPPLabel">
+              <i class="bi bi-file-text me-2"></i>PPP e Rescisões
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Gerenciamos os documentos necessários para aposentadoria especial (PPP) e processos de
+              rescisão, incluindo GRRF e seguro desemprego.</p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle text-success me-2"></i>Elaboração de PPP</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Processos de rescisão</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>GRRF e seguro desemprego</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Documentação previdenciária</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalLegal" tabindex="-1" aria-labelledby="modalLegalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalLegalLabel">
+              <i class="bi bi-briefcase me-2"></i>Acompanhamento Legal
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Oferecemos suporte em casos de causas trabalhistas, preposto em audiências e acompanhamento
+              de
+              convenções coletivas junto aos sindicatos.</p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle text-success me-2"></i>Suporte em causas trabalhistas</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Preposto em audiências</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Acompanhamento sindical</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Consultoria jurídica trabalhista</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalSelecao" tabindex="-1" aria-labelledby="modalSelecaoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalSelecaoLabel">
+              <i class="bi bi-people me-2"></i>Seleção e Acompanhamento
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Auxiliamos na seleção de Jovem Aprendiz e Pessoas com Deficiência (PCD), garantindo inclusão
+              e
+              diversidade no ambiente de trabalho.</p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle text-success me-2"></i>Programa Jovem Aprendiz</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Inclusão de PCD</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Acompanhamento contínuo</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Desenvolvimento profissional</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalConsignados" tabindex="-1" aria-labelledby="modalConsignadosLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalConsignadosLabel">
+              <i class="bi bi-clipboard-check me-2"></i>Consignados e Homologações
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Gerenciamos consignados e agendamos homologações junto aos sindicatos, facilitando processos
+              burocráticos para sua empresa.</p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle text-success me-2"></i>Gestão de empréstimos consignados</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Homologações sindicais</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Agendamentos automáticos</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Acompanhamento processual</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
-  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Folha de Pagamento</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p>Utilizamos o sistema folha Dexion para garantir precisão e eficiência no processamento da sua folha de pagamento.
-        </p>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-primary botao__modal " data-bs-dismiss="modal">Fechar</button>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Admissões e Demissões</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p>Gerenciamos todo o processo de admissão e demissão, assegurando conformidade com a legislação trabalhista.
-
-        </p>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-primary botao__modal " data-bs-dismiss="modal">Fechar</button>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Controle de Férias</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p>Cuidamos do controle e emissão das férias dos seus colaboradores, para garantir uma gestão eficaz do tempo de descanso.
-        </p>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-primary botao__modal " data-bs-dismiss="modal">Fechar</button>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">E-Social e SST</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p>Mantenha sua empresa em conformidade com as exigências do E-Social, bem como com as normas de Segurança e Saúde do Trabalho (SST) e Comunicação de Acidente de Trabalho (CAT).
-        </p>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-primary botao__modal " data-bs-dismiss="modal">Fechar</button>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">PPP e Rescisões</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p> Gerenciamos os documentos necessários para aposentadoria especial (PPP) e processos de rescisão, incluindo GRRF e seguro desemprego.
-        </p>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-primary botao__modal " data-bs-dismiss="modal">Fechar</button>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Acompanhamento Legal </h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p> Oferecemos suporte em casos de causas trabalhistas, preposto em audiências e acompanhamento de convenções coletivas junto aos sindicatos.
-
-        </p>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-primary botao__modal " data-bs-dismiss="modal">Fechar</button>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Seleção e Acompanhamento</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p> Auxiliamos na seleção de Jovem Aprendiz e Pessoas com Deficiência (PCD), garantindo inclusão e diversidade no ambiente de trabalho..
-
-        </p>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-primary botao__modal " data-bs-dismiss="modal">Fechar</button>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Consignados e Homologações </h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p>  Gerenciamos consignados e agendamos homologações junto aos sindicatos, facilitando processos burocráticos para sua empresa.
-            Contato
-            .
-
-        </p>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-primary botao__modal " data-bs-dismiss="modal">Fechar</button>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

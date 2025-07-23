@@ -1,80 +1,67 @@
-.section__contatos{
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 4rem;
-    width: 85%;
+.contact-section {
+  background: var(--primary-color);
+  color: var(--white);
 }
 
-.container__contato{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center ;
-    gap: 2rem;
+.contact-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.icon__whpp{
-    font-size: 3rem;
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  transition: var(--transition);
 }
 
-#formulario__faleConosco{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.contact-info:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(10px);
 }
 
-input {
-    width: 100%; 
-    box-sizing: border-box; 
-    margin-bottom: 10px; 
-    border-radius: 0.5rem;
-    border-style: solid;
+.contact-icon {
+  font-size: 1.5rem;
+  color: var(--accent-color);
 }
 
-textarea {
-    width: 100%; 
-    box-sizing: border-box; 
-    margin-bottom: 10px; /
+.form-control {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 0.75rem;
+  color: var(--white);
+  transition: var(--transition);
 }
 
-.container__nome,
-.container__telefone {
-    width: 100%; 
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 0.2rem rgba(79, 150, 255, 0.25);
+  color: var(--white);
 }
 
-.cotainer__email,
-.container__mensagem {
-    width: 100%; 
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.7);
 }
 
-.container__botao{
-    display: flex;
-    justify-content: center;
+.btn-primary {
+  background: var(--accent-color);
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: var(--transition);
 }
 
-.botao{
-    background-color: #11235A;
-    padding: 0.5em 2em;
-    border-radius: 1rem;
-    color: white;
-}
-
-.botao:hover{
-    background-color: #11235a93;
-}
-
-@media (min-width: 992px) {
-
-    .section__contatos{
-        margin-left: 5rem;
-    }
-
-
-    .container__contato, .container__faleConosco {
-        padding: 8rem;
-    }
+.btn-primary:hover {
+  background: #3d7ce6;
+  transform: translateY(-2px);
 }

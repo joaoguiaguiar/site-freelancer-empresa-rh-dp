@@ -1,0 +1,87 @@
+.service-card {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  height: 100%;
+  position: relative;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-hover);
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--gradient-bg);
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.service-card:hover::before {
+  opacity: 0.95;
+}
+
+.service-card:hover .card-content {
+  color: var(--white);
+  transform: translateY(-10px);
+}
+
+
+.service-card:hover .service-icon {
+  color: var(--white);
+  transform: scale(1.2);
+}
+
+.service-card:hover .btn-service {
+  background: var(--white);
+  color: var(--primary-color);
+}
+
+.service-card:hover .card-content {
+  color: var(--white);
+}
+
+.service-card:hover .text-muted {
+  color: var(--white) !important;
+}
+
+
+.card-content {
+  padding: 1.5rem;
+  position: relative;
+  z-index: 2;
+  transition: var(--transition);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+  transition: var(--transition);
+}
+
+.service-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.btn-service {
+  background: var(--primary-color);
+  color: var(--white);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: var(--transition);
+  width: 100%;
+}

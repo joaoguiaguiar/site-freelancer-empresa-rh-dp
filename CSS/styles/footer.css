@@ -1,0 +1,21 @@
+footer {
+  background: var(--primary-dark);
+  color: var(--white);
+  padding: 3rem 0 1rem;
+}
+
+.modal-content {
+  border-radius: var(--border-radius);
+  border: none;
+  box-shadow: var(--shadow-hover);
+}
+
+.modal-header {
+  background: var(--gradient-bg);
+  color: var(--white);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.btn-close {
+  filter: invert(1);
+}
